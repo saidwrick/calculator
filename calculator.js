@@ -1,3 +1,7 @@
+function round (number){
+    return parseFloat((Math.round(number*10000)/10000).toFixed(4));
+}
+
 function displayNumber(key){
     if ((key == "0") && firstNumber == "0"){
         null;
@@ -40,7 +44,7 @@ function evaluate(firstNumber, operator, secondNumber){
             answer = parseFloat(firstNumber) - parseFloat(secondNumber);
             break;
     }
-    display.value = parseFloat(answer);
+    display.value = round(answer);
 }
 
 let firstNumber = "";
