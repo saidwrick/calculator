@@ -83,7 +83,7 @@ decimalButton.addEventListener('click', function(){
         if (firstNumber == ""){
             firstNumber += "0.";
         }
-        else if (!(firstNumber.includes("."))){
+        else if (!(firstNumber.toString().includes("."))){
             firstNumber += "."
         }
         display.value = firstNumber;
