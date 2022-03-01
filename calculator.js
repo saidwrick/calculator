@@ -96,7 +96,7 @@ decimalButton.addEventListener('click', function(){
         if (secondNumber == ""){
             secondNumber += "0.";
         }
-        else if (!(secondNumber.includes("."))){
+        else if (!(secondNumber.toString().includes("."))){
             secondNumber += "."
         }
         display.value = secondNumber;
