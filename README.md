@@ -1,3 +1,3 @@
 # Vanilla JS Calculator
 
-Live link: https://saidwrick.github.io/calculator/
+Live link: https://saidwrick.github.io/calculator
